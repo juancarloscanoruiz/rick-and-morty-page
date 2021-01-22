@@ -6,12 +6,7 @@ import "./App.scss"
 function App() {
 
   return (
-    <Router>
-      <Switch>
-        <Route path="/" exact="true" component={Home}/>
-        <Route path="/character/:id" exact="true" component={Character}/>
-      </Switch>
-    </Router>
+    <Home />
   );
 }
 
