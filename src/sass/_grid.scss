@@ -1,0 +1,332 @@
+.col {
+  width: 100%;
+}
+
+.col-12 {
+  width: (100% * 12) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-11 {
+  width: (100% * 11) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-10 {
+  width: (100% * 10) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-9 {
+  width: (100% * 9) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-8 {
+  width: (100% * 8) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-7 {
+  width: (100% * 7) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-6 {
+  width: (100% * 6) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-5 {
+  width: (100% * 5) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-4 {
+  width: (100% * 4) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-3 {
+  width: (100% * 3) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-2 {
+  width: (100% * 2) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-1 {
+  width: (100% * 1) / 12;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .col-md {
+    width: 100%;
+  }
+
+  .col-md-12 {
+    width: (100% * 12) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-11 {
+    width: (100% * 11) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-10 {
+    width: (100% * 10) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-9 {
+    width: (100% * 9) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-8 {
+    width: (100% * 8) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-7 {
+    width: (100% * 7) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-6 {
+    width: (100% * 6) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-5 {
+    width: (100% * 5) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-4 {
+    width: (100% * 4) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-3 {
+    width: (100% * 3) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-2 {
+    width: (100% * 2) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-md-1 {
+    width: (100% * 1) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .col-lg {
+    width: 100%;
+  }
+
+  .col-lg-12 {
+    width: (100% * 12) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-11 {
+    width: (100% * 11) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-10 {
+    width: (100% * 10) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-9 {
+    width: (100% * 9) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-8 {
+    width: (100% * 8) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-7 {
+    width: (100% * 7) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-6 {
+    width: (100% * 6) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-5 {
+    width: (100% * 5) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-4 {
+    width: (100% * 4) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-3 {
+    width: (100% * 3) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-2 {
+    width: (100% * 2) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-1 {
+    width: (100% * 1) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .col-lg {
+    width: 100%;
+  }
+
+  .col-lg-12 {
+    width: (100% * 12) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-11 {
+    width: (100% * 11) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-10 {
+    width: (100% * 10) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-9 {
+    width: (100% * 9) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-8 {
+    width: (100% * 8) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-7 {
+    width: (100% * 7) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-6 {
+    width: (100% * 6) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-5 {
+    width: (100% * 5) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-4 {
+    width: (100% * 4) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-3 {
+    width: (100% * 3) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-2 {
+    width: (100% * 2) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-lg-1 {
+    width: (100% * 1) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .col-xl {
+    width: 100%;
+  }
+
+  .col-xl-12 {
+    width: (100% * 12) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-11 {
+    width: (100% * 11) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-10 {
+    width: (100% * 10) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-9 {
+    width: (100% * 9) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-8 {
+    width: (100% * 8) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-7 {
+    width: (100% * 7) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-6 {
+    width: (100% * 6) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-5 {
+    width: (100% * 5) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-4 {
+    width: (100% * 4) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-3 {
+    width: (100% * 3) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-2 {
+    width: (100% * 2) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xl-1 {
+    width: (100% * 1) / 12;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
