@@ -6,7 +6,12 @@ import "./App.scss"
 function App() {
 
   return (
-    <Home />
+    <Router basename={process.env.PUBLIC_URL}>
+      <Switch>
+        <Route path="/" exact="true" component={Home}/>
+        <Route path="/character/:id" exact="true" component={Character}/>
+      </Switch>
+    </Router>
   );
 }
 
