@@ -1,0 +1,9 @@
+.container-character {
+  background-color: white;
+  border-radius: 10px;
+
+  &__image {
+    width: 100%;
+    border-radius: 10px;
+  }
+}

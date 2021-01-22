@@ -1,19 +1,17 @@
-import React, { useState, useEffect } from "react";
-import { getAllCharacters } from "./api/characters";
+import React from "react";
+import { Switch, BrowserRouter as Router, Route } from "react-router-dom"
+import Home from "./pages/Home";
+import Character from "./pages/Character";
 import "./App.scss"
 function App() {
 
-  useEffect(() => {
-    const response = getAllCharacters();
-    response.then((result) => {
-      console.log(result);
-    })
-  }, [])
-
   return (
-    <div className="col-1">
-      <h1>Rick and Morty App</h1>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact="true" component={Home}/>
+        <Route path="/character/:id" exact="true" component={Character}/>
+      </Switch>
+    </Router>
   );
 }
 

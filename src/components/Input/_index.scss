@@ -1,0 +1,12 @@
+.search-field {
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 300px;
+  &__input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+  }
+}

@@ -1,9 +1,10 @@
 import axios from "axios";
 
 export function getAllCharacters(){
-    return axios.get("https://rickandmortyapi.com/documentation/#get-all-characters")
+    return axios.get("https://rickandmortyapi.com/api/character/")
 }
 
-export function getCharacter(){
+export function getCharacter(id){
+    return axios.get(`https://rickandmortyapi.com/api/character/${id}`)
 
 }
