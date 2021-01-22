@@ -1,12 +1,23 @@
 .search-field {
   background-color: white;
-  border-radius: 20px;
-  width: 100%;
+  border-radius: 100px;
+  width: 55px;
   max-width: 300px;
+  transition: 0.5s all;
   &__input {
     border: none;
     background-color: transparent;
     outline: none;
     width: 100%;
+  }
+}
+
+.search-field:hover {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .search-field {
+    transition: 1s all;
   }
 }
